@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
 import { BrowserRouter } from "react-router";
 import { Provider } from 'react-redux';
 import { store } from './rtk/store';
 
 
+=======
+import { BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { store } from './rtk/store';
+
+>>>>>>> e376db41108b93d16d23a7f08a46a303f0dac523
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
